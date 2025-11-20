@@ -3,7 +3,7 @@
 A small **portfolio website** that highlights my course work for  
 **WEBD-3012 Business Systems Build and Testing**.
 
-This repo uses a simple UI component library and runs in Docker on port **8015**.
+This repo uses a simple UI component library and runs in Docker on port **5575**.
 
 ## 1) Requirements
 
@@ -34,7 +34,7 @@ The site includes the following sections:
 * Resources – useful links (React, TypeScript, Storybook, Docker, CI/CD)
 * Dev Setup – my editor, terminal, preferred font family, and dev tools
 
-## 7) Docker (production build on port 8015)
+## 7) Docker (production build on port 5575)
 
 Build image:
 
@@ -46,10 +46,10 @@ Run container (use required container name):
 
 ```bash
 docker run --rm \
-  -p 8015:8015 \
+  -p 5575:5575 \
   --name chen_yaohuang_coding_assignment14 \
   chen_yaohuang_coding_assignment14
 
-# open http://127.0.0.1:8015
+# open http://127.0.0.1:5575
 ```
 
